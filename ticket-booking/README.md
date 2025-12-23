@@ -1,5 +1,3 @@
-# 🎟️ Ticket Booking & Checkout Flow
-
 ### *The “Booking & State” Master*
 
 A **React-based Ticket Booking application** that implements a **multi-step booking flow** using **React Router** and **Context API / Redux** for state management.
@@ -7,7 +5,7 @@ The project demonstrates handling complex forms, preserving application state, i
 
 ---
 
-## 📌 Project Description
+##  Project Description
 
 This project simulates a real-world **ticket booking and checkout system** where users can:
 
@@ -21,9 +19,9 @@ The booking state is preserved across routes and page refreshes using centralize
 
 ---
 
-## 🚀 Features
+##  Features
 
-### ✅ Multi-Step Booking Form (React Router)
+###  Multi-Step Booking Form (React Router)
 
 * **Step 1:** Route Selection
 * **Step 2:** Passenger Type & Ticket Quantity
@@ -33,7 +31,7 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
 
 ---
 
-### ✅ State Management (Context API / Redux)
+###  State Management (Context API / Redux)
 
 * Booking data is stored globally
 * User selections persist when:
@@ -44,7 +42,7 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
 
 ---
 
-### ✅ Price Engine
+###  Price Engine
 
 * A centralized utility function calculates ticket price
 * Pricing logic:
@@ -54,12 +52,12 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
   ```
 * Discounts applied based on passenger type:
 
-  * 🎓 Student Discount
-  * 👴 Senior Citizen Discount
+  *  Student Discount
+  *  Senior Citizen Discount
 
 ---
 
-### ✅ Validation Rules
+###  Validation Rules
 
 * Users **cannot book more than 5 tickets**
 * Form-level validation prevents invalid submissions
@@ -67,7 +65,7 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
 
 ---
 
-### ✅ UI & Styling
+###  UI & Styling
 
 * Custom **CSS** added for:
 
@@ -79,7 +77,7 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
 
 ---
 
-## 🧠 Technical Focus
+##  Technical Focus
 
 * React Functional Components
 * React Router
@@ -91,7 +89,7 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 * **Frontend:** React.js
 * **Routing:** React Router
@@ -103,7 +101,7 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
 
 
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository**
 
@@ -140,7 +138,7 @@ Navigation between steps is handled using **React Router**, ensuring a smooth st
 | CSS Styling                | Bonus | ✅ Added     |
 
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 * Implemented React Router for step-based navigation
 * Managed global state efficiently
